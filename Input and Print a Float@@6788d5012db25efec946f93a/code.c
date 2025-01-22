@@ -6,6 +6,6 @@
 
 int main() {
    float a = scanf("Enter a number: ");
-   printf("a = %f", a);
+   printf("a = %f", &a);
    return 0;
 }
