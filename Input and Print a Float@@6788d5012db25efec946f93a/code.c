@@ -7,4 +7,5 @@
 int main() {
    int a = scanf("Enter a number: ");
    printf("a = %d", a);
+   return 0;
 }
