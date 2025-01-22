@@ -5,7 +5,7 @@
 // }
 
 int main() {
-   int a = scanf("Enter a number: ");
-   printf("a = %d", a);
+   float a = scanf("Enter a number: ");
+   printf("a = %f", a);
    return 0;
 }
