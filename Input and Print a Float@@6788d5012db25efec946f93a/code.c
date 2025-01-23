@@ -8,5 +8,5 @@ int main() {
     float a;
    printf("Enter the number: ");
    scanf("%f", &a);
-   printf(".2%f", a);
+   printf("You entered: %.2f", a);
 }
