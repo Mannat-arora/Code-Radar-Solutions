@@ -19,11 +19,11 @@ int main() {
     scanf("%c", &a);
     
     if (islower(a)) {  
-        printf("Lowercase\n");
+        printf("Lowercase");
     } else if (isupper(a)) {  
-        printf("Uppercase\n");
+        printf("Uppercase");
     } else {
-        printf("Not a letter\n");  // Handles numbers, symbols, spaces, etc.
+        printf("Not an alphabet");  // Handles numbers, symbols, spaces, etc.
     }
 
     return 0;
