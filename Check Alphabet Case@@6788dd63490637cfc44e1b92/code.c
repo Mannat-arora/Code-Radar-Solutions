@@ -20,8 +20,10 @@ int main() {
     
     if (islower(a)) {  // Removed the dot (.)
         printf("Lowercase");  // Corrected output message
-    } else {
-        printf("Uppercase");  // Corrected output message
+    } else if(a==int(a)) {
+        printf("Not an alphabet");  // Corrected output message
+    } else{
+        printf("Uppercase");
     }
 
     return 0;
