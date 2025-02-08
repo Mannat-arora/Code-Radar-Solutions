@@ -18,12 +18,12 @@ int main() {
     char a;
     scanf("%c", &a);
     
-    if (islower(a)) {  // Removed the dot (.)
-        printf("Lowercase");  // Corrected output message
-    } else if(int(a)) {
-        printf("Not an alphabet");  // Corrected output message
-    } else{
-        printf("Uppercase");
+    if (islower(a)) {  
+        printf("Lowercase\n");
+    } else if (isupper(a)) {  
+        printf("Uppercase\n");
+    } else {
+        printf("Not a letter\n");  // Handles numbers, symbols, spaces, etc.
     }
 
     return 0;
