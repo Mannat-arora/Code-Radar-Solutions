@@ -7,4 +7,5 @@ for(i=1; i<=a; a++){
     sum += i;
 }
 printf("%d", sum);
+return 0;
 }
