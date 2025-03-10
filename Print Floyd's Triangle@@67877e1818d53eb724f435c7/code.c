@@ -7,5 +7,6 @@ int main(){
             printf("%d", j);
         }
         printf("\n");
+        i++;
     }
 }
