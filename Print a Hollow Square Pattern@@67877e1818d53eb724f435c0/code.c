@@ -3,9 +3,9 @@ int main(){
     int n,i,j;
     scanf("%d", &n);
     for(i=1; i<=n; i++){
-        if(i==n) && (i==1){
+        if(i==n) || (i==1){
             printf("*");
         } 
-        return 0;
+        
     }
 }
