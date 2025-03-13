@@ -5,9 +5,7 @@ int main(){
     for(i=1; i<=n; i++){
         if(i==n) && (i==1){
             printf("*");
-        } else{
-            
-
-        }
+        } 
+        return 0;
     }
 }
