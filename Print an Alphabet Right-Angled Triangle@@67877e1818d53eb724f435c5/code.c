@@ -2,10 +2,9 @@
 int main(){
     int a,i,j;
     scanf("%d", &a);
-    for(i='A'; i<=a; i++){
-        for(j='A'; j<=i; j++){
-            printf("%d", j);
+    for(int i=1; i<=a; i++){
+        for(int j; j<=i; j++){
+            printf("%c", 'A');
         }
-        printf("\n");
     }
 }
