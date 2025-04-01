@@ -13,4 +13,6 @@ int main(){
             odd++;
         }
     }
+    printf("%d %d", even, odd);
+
 }
