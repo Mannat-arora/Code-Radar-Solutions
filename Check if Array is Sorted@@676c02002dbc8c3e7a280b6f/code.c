@@ -12,6 +12,8 @@ int main(){
         
         } else if(arr[i] == arr[i+1]){
             replace=1;
+        } else{
+            replace =0;
         }
     }
     if(!replace){
