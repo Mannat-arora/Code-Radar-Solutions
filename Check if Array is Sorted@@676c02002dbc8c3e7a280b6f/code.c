@@ -3,8 +3,11 @@ int main(){
     int n,replace=0;
     scanf("%d", &n);
     int arr[n];
-    for(int i=0; i<n; i++){
+    for(int i=0; i<n-1; i++){
         scanf("%d", &arr[i]);
+    }
+    if(n==1){
+        printf("Sorted");
     }
     for(int i=0; i<n; i++){
         if(arr[i]<arr[i+1]){
@@ -12,9 +15,7 @@ int main(){
         
         } else if(arr[i] == arr[i+1]){
             replace=1;
-        } else if(n==1){
-            replace= 1;
-        }
+        } 
         else{
             replace =0;
         }
