@@ -12,7 +12,10 @@ int main(){
         
         } else if(arr[i] == arr[i+1]){
             replace=1;
-        } else{
+        } else if(n==1){
+            replace 1;
+        }
+        else{
             replace =0;
         }
     }
