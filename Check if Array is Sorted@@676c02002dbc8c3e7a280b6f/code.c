@@ -10,8 +10,8 @@ int main(){
         if(arr[i]<arr[i+1]){
             replace =1;
         
-        } else{
-            replace=0;
+        } else if(arr[i] == arr[i+1]){
+            replace=1;
         }
     }
     if(!replace){
