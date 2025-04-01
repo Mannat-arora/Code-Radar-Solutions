@@ -15,6 +15,6 @@ if(max>arr[i]){
     max=arr[i];
 }
 }
-printf("%d", min);
+printf("%d ", min);
 printf("%d", max);
 }
