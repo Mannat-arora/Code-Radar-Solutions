@@ -1,6 +1,6 @@
 #include <stdio.h>
 int main(){
-    int n,replace=0;
+    int n,replace=1;
     scanf("%d", &n);
     int arr[n];
     for(int i=0; i<n; i++){
@@ -9,7 +9,7 @@ int main(){
     if(n==1){
         printf("Sorted");
     }
-    for(int i=0; i<n; i++){
+    for(int i=0; i<n-1; i++){
         if(arr[i]<arr[i+1]){
             replace =1;
         
