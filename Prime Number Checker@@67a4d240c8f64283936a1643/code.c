@@ -1,4 +1,4 @@
-isPrime(num){
+int isPrime(num){
     if(num<2){
         printf("1");
     } else{
