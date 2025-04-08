@@ -9,7 +9,7 @@ int main(){
     scanf("%d", &k);
     for(int i=0; i<n; i++){
         if(arr[i] == k){
-            return i;
+            printf("%d", i);
             break;
         }
     }
