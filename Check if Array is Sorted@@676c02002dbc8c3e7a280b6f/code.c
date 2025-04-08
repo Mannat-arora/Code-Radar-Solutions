@@ -6,12 +6,17 @@ int main() {
     for(int i=0; i<n; i++){
         scanf("%d", &arr[i]);
     }
+    int issorted =1;
     for(int i=0; i<n; i++){
         if(arr[i]<arr[i+1]) || (arr[i] == arr[i+1]){
-            printf("Sorted");
-        } else{
-            printf("Not Sorted");
-        }
+            issorted = 1;
+            break;
+        } 
+    }
+    if(issorted){
+        printf("Sorted");
+    } else{
+        printf("Not Sorted");
     }
     
 
