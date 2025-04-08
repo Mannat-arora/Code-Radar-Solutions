@@ -11,14 +11,14 @@ int main(){
         if(arr[i]<2){
             isprime=0;
         }else{
-            for(int j=0; j*j<=arr[i]; j++){
+            for(int j=2; j*j<=arr[i]; j++){
                 if(arr[i]%j==0){
                     isprime =0;
-                }else{
-                    isprime =1;
-                    count ++;
                 }
             }
+        }
+        if(isprime){
+            count++;
         }
     }
     printf("%d", count);
