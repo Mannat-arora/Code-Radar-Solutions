@@ -8,6 +8,6 @@ int main(){
     }
     int left=arr[0], right=arr[n-1], mid;
     mid=left+(right-left)/2;
-    printf("%d", mid);
+    printf("%d", arr[mid]);
 
 }
