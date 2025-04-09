@@ -7,7 +7,7 @@ int main(){
         scanf("%d", &arr[i]);
     }
     int left=arr[0], right=arr[n-1], mid;
-    mid=left+(right-left)/2;
+    mid=left+((right-left)/2);
     printf("%d", mid);
 
 }
