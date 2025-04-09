@@ -11,7 +11,7 @@ int main(){
         mid=n/2;
         printf("%d", (arr[mid]+arr[mid+1])/2);
     }else{
-        mid=(n/2)+1;
+        mid=(n/2);
         printf("%d", arr[mid]);
     }
 
