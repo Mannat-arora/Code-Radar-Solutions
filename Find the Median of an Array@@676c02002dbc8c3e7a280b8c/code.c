@@ -9,7 +9,7 @@ int main(){
     int left=0, mid;
     if(n%2==0){
         mid=n/2;
-        printf("%d", (arr[mid]+arr[mid+1])/2);
+        printf("%d", (arr[mid-1]+arr[mid])/2);
     }else{
         mid=(n/2);
         printf("%d", arr[mid]);
