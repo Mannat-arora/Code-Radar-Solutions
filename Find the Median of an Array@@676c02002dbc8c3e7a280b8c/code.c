@@ -6,8 +6,13 @@ int main(){
     for(int i=0; i<n; i++){
         scanf("%d", &arr[i]);
     }
-    int left=arr[0], right=arr[n-1], mid;
-    mid=left+((right-left)/2);
-    printf("%d", mid);
+    int left=0, mid;
+    if(n%2==0){
+        mid=n/2;
+        printf("%d", (arr[mid]+arr[mid+1])/2);
+    }else{
+        mid=(n/2)+1;
+        printf("%d", arr[mid]);
+    }
 
 }
