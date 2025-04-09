@@ -6,8 +6,8 @@ int main(){
     for(int i=0; i<n; i++){
         scanf("%d", &arr[i]);
     }
-    int left=0, right=n-1, mid;
-    mid=right/2;
+    int left=arr[0], right=arr[n-1], mid;
+    mid=left+(right-left)/2;
     printf("%d", arr[mid]);
 
 }
